@@ -24,7 +24,7 @@ const ContainerCart = () => {
             <div className="cart" style={style} >
                 <div className="cerrar">
                     <button className="close" onClick={closeCart}>
-                        <img src={close}></img>
+                        <img alt="" src={close}></img>
                     </button>
                 </div>
 
@@ -51,7 +51,7 @@ const ContainerCart = () => {
                     </button>
 
                     <button className="clear" onClick={clearCart}>
-                        <img src={clear}></img>
+                        <img alt="" src={clear}></img>
                     </button>
                 </div>
             </div>
